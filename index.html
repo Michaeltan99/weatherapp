@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Weather<span>APP</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home" class="menuItem">Home</a>
+        <a href="#about" class="menuItem">About</a>
+        <a href="#checkw" class="menuItem">Weather</a>
+        <a href="#history" class="menuItem">Prediction</a>
+      </div>
+
+      <div class="navbar-extra">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <div class="row">
+        <div class="hero-img">
+          <img src="./ikon/cloudy.png" alt="About Us" />
+        </div>
+        <div class="content">
+          <h1>Weather<span>APP</span></h1>
+          <p>
+            Explore your local forecast and beyond with just a click. Stay ahead
+            of the weather with WeatherAPP.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h1><span>Our</span> Mission</h1>
+      <p>
+        At WeatherApp, our mission is to provide you with precise,
+        up-to-the-minute weather predictions. We believe in empowering you to
+        make informed decisions based on real-time weather data.
+      </p>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Weather Section Start -->
+    <section id="checkw" class="checkw">
+      <h1><span>Check</span> Weather</h1>
+      <p>Lets check your weather conditions at your place now.</p>
+      <div class="weather">
+        <div class="container">
+          <div class="left-info">
+            <div class="pic-gradient"></div>
+            <div class="today-info">
+              <h2>Friday</h2>
+              <span>28 July 2023</span>
+              <div>
+                <i class="bx bx-current-location"></i>
+                <span>Paris, FR</span>
+              </div>
+            </div>
+            <div class="today-weather">
+              <i class="bx bx-sun"></i>
+              <h1 class="weather-temp">25°C</h1>
+              <h3>Sunny</h3>
+            </div>
+          </div>
+
+          <div class="right-info">
+            <div class="day-info">
+              <div>
+                <span class="title">PRECIPITATION</span>
+                <span class="value">4 %</span>
+              </div>
+              <div>
+                <span class="title">HUMIDITY</span>
+                <span class="value">34 %</span>
+              </div>
+              <div>
+                <span class="title">WIND SPEED</span>
+                <span class="value">6 km/h</span>
+              </div>
+            </div>
+
+            <ul class="days-list">
+              <li>
+                <i class="bx bx-cloud"></i>
+                <span>Sat</span>
+                <span class="day-temp">23°C</span>
+              </li>
+              <li>
+                <i class="bx bx-sun"></i>
+                <span>Sun</span>
+                <span class="day-temp">28°C</span>
+              </li>
+              <li>
+                <i class="bx bx-cloud-rain"></i>
+                <span>Mon</span>
+                <span class="day-temp">02°C</span>
+              </li>
+              <li>
+                <i class="bx bx-cloud-drizzle"></i>
+                <span>Tue</span>
+                <span class="day-temp">14°C</span>
+              </li>
+            </ul>
+
+            <div class="btn-container">
+              <button class="loc-button">Search Location</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Weather Section End -->
+
+    <!-- History Start -->
+    <section id="history" class="history">
+      <h1><span>Weather</span> Prediction</h1>
+      <p>
+        Discover the unparalleled urban aquatic adventure that will take your
+        breath away!
+      </p>
+      <table class="days-weather">
+        <tr>
+          <th class="table-no">No</th>
+          <th>Day</th>
+          <th>Temp</th>
+          <th>Weather</th>
+        </tr>
+        <tr>
+          <td>Mon</td>
+          <td>14°C</td>
+          <td>cloud</td>
+        </tr>
+        <tr>
+          <td>Tue</td>
+          <td>14°C</td>
+          <td>cloud</td>
+        </tr>
+        <tr>
+          <td>Wed</td>
+          <td>14°C</td>
+          <td>cloud</td>
+        </tr>
+        <tr>
+          <td>Thu</td>
+          <td>14°C</td>
+          <td>cloud</td>
+        </tr>
+        <tr>
+          <td>Fri</td>
+          <td>14°C</td>
+          <td>cloud</td>
+        </tr>
+      </table>
+    </section>
+    <!-- History End -->
+
+    <!-- Footer Start -->
+
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#checkw">Weather</a>
+          <a href="#history">Prediction</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">WeatherAPP</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/apps.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
